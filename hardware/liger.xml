@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/physiii/circuits/5v-2a-psu/hardware/liger.sch</source>
+    <date>Fri 21 Oct 2016 11:23:22 AM CDT</date>
+    <tool>Eeschema 201610091317+7290~55~ubuntu16.04.1-</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>liger.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BR1">
+      <value>DF08S</value>
+      <footprint>footprints:DF005S</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/fairchild-semiconductor/DF08S/DF08SCT-ND/2094412</datasheet>
+      <fields>
+        <field name="Part Number">DF08SCT</field>
+      </fields>
+      <libsource lib="liger-cache" part="Diode_Bridge"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C81314</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>330pF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/kemet/C0805C331KCRACTU/399-7151-1-ND/3439391</datasheet>
+      <fields>
+        <field name="Part Number">C0805C331KCRACTU</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C8658B</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>560uF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D8_L11.5_P3.5</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/nichicon/UPW0J561MPD/493-1703-ND/589444</datasheet>
+      <fields>
+        <field name="Part Number">UPW0J561MPD</field>
+      </fields>
+      <libsource lib="device" part="CP1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C87C6C</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-323</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/micro-commercial-co/1N4148WX-TP/1N4148WXTPMSCT-ND/717312</datasheet>
+      <fields>
+        <field name="Part Number">1N4148WX-TP</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C8E8E8</tstamp>
+    </comp>
+    <comp ref="RT1">
+      <value>5</value>
+      <footprint>Resistors_ThroughHole:Resistor_Vertical_RM5mm</footprint>
+      <datasheet>http://www.digikey.com/product-search/en?keywords=SL05%205R001-A</datasheet>
+      <fields>
+        <field name="Part Number">SL05 5R001-A</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57CEDD2A</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>BEAD</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/tdk-corporation/MMZ2012D121BT000/445-2188-1-ND/765218</datasheet>
+      <fields>
+        <field name="Part Number">MMZ2012D121BT000</field>
+      </fields>
+      <libsource lib="liger-cache" part="BK0603HS330-T"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57CF1BCD</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>12uF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D10_L13_P5</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/rubycon/400AX12MEFC10X12.5/1189-3120-ND/6049840</datasheet>
+      <fields>
+        <field name="Part Number">400AX12MEFC10X12.5</field>
+      </fields>
+      <libsource lib="device" part="CP1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57CF4182</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>470uH</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D10_L13_P5</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/bourns-inc/RLB0608-471KL/RLB0608-471KL-ND/2352761</datasheet>
+      <fields>
+        <field name="Part Number">BK1608HS330-T</field>
+      </fields>
+      <libsource lib="liger-cache" part="BK0603HS330-T"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57CF6277</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>0.91</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/susumu/RL1220S-R91-F/RL12S.91FCT-ND/567353</datasheet>
+      <fields>
+        <field name="Part Number">RL1220S-R91-F</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57CFCBB5</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>0.82</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/susumu/RL1220S-R82-F/RL12S.82FCT-ND/433031</datasheet>
+      <fields>
+        <field name="Part Number">RL1220S-R82-F</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57CFCDF7</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>LNK4023D</value>
+      <footprint>Power_Integrations:SO-8</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/power-integrations/LNK4023D-TL/596-1527-1-ND/6126520</datasheet>
+      <fields>
+        <field name="Part Number">LNK4023D-TL</field>
+      </fields>
+      <libsource lib="liger-cache" part="LNK4023D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57D203D5</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>27M</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/yageo/RV1206JR-0727ML/311-27MNJCT-ND/2828056</datasheet>
+      <fields>
+        <field name="Part Number">RV1206JR-0727ML</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57D236D4</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>Q_NPN_BEC</value>
+      <footprint>footprints:APT13005SU-G1</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/diodes-incorporated/APT13005SU-G1/APT13005SU-G1DI-ND/4570492</datasheet>
+      <fields>
+        <field name="Part Number">APT13005SU-G1</field>
+      </fields>
+      <libsource lib="device" part="Q_NPN_BEC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57D24B1F</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>300</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/rohm-semiconductor/ESR03EZPJ301/RHM300DCT-ND/1762932</datasheet>
+      <fields>
+        <field name="Part Number">ESR03EZPJ301</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57D25761</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>D</value>
+      <footprint>Diodes_SMD:DO-214BA</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/smc-diode-solutions/GS1MTR/1655-1432-1-ND/6022877</datasheet>
+      <fields>
+        <field name="Part Number">GS1MTR</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57D25C0A</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>EPC1716D</value>
+      <footprint>footprints:PNK-40230</footprint>
+      <libsource lib="liger-cache" part="EPC1716D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57D2889A</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100pF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/johanson-technology-inc/251R14S101JV4T/712-1310-1-ND/1786772</datasheet>
+      <fields>
+        <field name="Part Number">251R14S101JV4T</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57D2B375</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>3K</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/yageo/RC0603JR-073KL/311-3.0KGRCT-ND/729701</datasheet>
+      <fields>
+        <field name="Part Number">RC0603JR-073KL</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57D2C838</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>620</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/yageo/RC0603JR-07620RL/311-620GRCT-ND/729762</datasheet>
+      <fields>
+        <field name="Part Number">RC0603JR-07620RL</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57D2C83F</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>9.1K</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/yageo/RC0603JR-079K1L/311-9.1KGRCT-ND/729784</datasheet>
+      <fields>
+        <field name="Part Number">RC0603JR-079K1L</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57D2CBAE</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>1</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0603FTD1R00/RNCP0603FTD1R00CT-ND/2240411</datasheet>
+      <fields>
+        <field name="Part Number">RNCP0603FTD1R00</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57D2D55A</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/tdk-corporation/C1608X5R1E225K080AB/445-5964-1-ND/2444005</datasheet>
+      <fields>
+        <field name="Part Number">C1608X5R1E225K080AB</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57D2D706</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>D</value>
+      <footprint>footprints:PMEG45A10EPDAZ-Schottky</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/nxp-semiconductors/PMEG45A10EPDAZ/568-11468-1-ND/4860390</datasheet>
+      <fields>
+        <field name="Part Number">PMEG45A10EPDAZ</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57D2FDC4</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>4.7</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/yageo/RC0603JR-074R7L/311-4.7GRCT-ND/729731</datasheet>
+      <fields>
+        <field name="Part Number">RC0603JR-074R7L</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57D306BA</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>1000pF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R72E102KW07D/490-3526-1-ND/789431</datasheet>
+      <fields>
+        <field name="Part Number">GRM188R72E102KW07D</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57D3083D</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>5.1K</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/yageo/RC0603JR-075K1L/311-5.1KGRCT-ND/729743</datasheet>
+      <fields>
+        <field name="Part Number">RC0603JR-075K1L</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57D33168</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>27M</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/yageo/RV1206JR-0727ML/311-27MNJCT-ND/2828056</datasheet>
+      <fields>
+        <field name="Part Number">RV1206JR-0727ML</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57D48312</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>470K</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/yageo/RC0603JR-07470KL/311-470KGRCT-ND/729739</datasheet>
+      <fields>
+        <field name="Part Number">RC0603JR-07470KL</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57D483A2</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>270</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT270R/RMCF0805JT270RCT-ND/1942546</datasheet>
+      <fields>
+        <field name="Part Number">RMCF0805JT270R</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57D498FF</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>270</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT270R/RMCF0805JT270RCT-ND/1942546</datasheet>
+      <fields>
+        <field name="Part Number">RMCF0805JT270R</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57D3C6A2</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>12uF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D10_L13_P5</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/rubycon/400AX12MEFC10X12.5/1189-3120-ND/6049840</datasheet>
+      <fields>
+        <field name="Part Number">400AX12MEFC10X12.5</field>
+      </fields>
+      <libsource lib="device" part="CP1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57D41D1D</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>560uF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D8_L11.5_P3.5</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/nichicon/UPW0J561MPD/493-1703-ND/589444</datasheet>
+      <fields>
+        <field name="Part Number">UPW0J561MPD</field>
+      </fields>
+      <libsource lib="device" part="CP1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57D4388C</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/tdk-corporation/C1608X5R1E225K080AB/445-5964-1-ND/2444005</datasheet>
+      <fields>
+        <field name="Part Number">C1608X5R1E225K080AB</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57D9BB49</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>CONN_01X02</value>
+      <footprint>footprints:pheonix-connector-01x02-5mm</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/phoenix-contact/1935161/277-1667-ND/568614</datasheet>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DE9B7C</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>CONN_01X02</value>
+      <footprint>footprints:pheonix-connector-01x02-5mm</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/phoenix-contact/1935161/277-1667-ND/568614</datasheet>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DEA09D</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>CONN_01X03</value>
+      <footprint>footprints:pheonix-connector-01x03-5mm</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/hirose-electric-co-ltd/DF13C-3P-1.25V(21)/H121960CT-ND/3907735</datasheet>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DCEDF1</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="liger-cache" part="BK0603HS330-T">
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">BK0603HS330-T</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector, single row, 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <description>Connector, single row, 01x03</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP1">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>SMD*_Pol</fp>
+        <fp>C_Axial*</fp>
+        <fp>C_Radial*</fp>
+        <fp>c_elec*</fp>
+        <fp>C*elec</fp>
+        <fp>TantalC*</fp>
+        <fp>CP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="liger-cache" part="Diode_Bridge">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Diode_Bridge</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="input"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="liger-cache" part="EPC1716D">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">EPC1716D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AUX-" type="input"/>
+        <pin num="2" name="AUX+" type="input"/>
+        <pin num="3" name="PRI2-" type="input"/>
+        <pin num="4" name="PRI2+" type="input"/>
+        <pin num="5" name="PRI1" type="input"/>
+        <pin num="6" name="SEC-" type="input"/>
+        <pin num="7" name="SEC+" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="liger-cache" part="LNK4023D">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LNK4023D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CS" type="input"/>
+        <pin num="2" name="VCC" type="input"/>
+        <pin num="3" name="SBD" type="input"/>
+        <pin num="4" name="BD" type="input"/>
+        <pin num="5" name="ED" type="input"/>
+        <pin num="6" name="GND" type="input"/>
+        <pin num="8" name="FB" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_NPN_BEC">
+      <description>Transistor NPN (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_BEC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="liger-cache">
+      <uri>/home/physiii/circuits/5v-2a-psu/hardware/liger-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(Q5-Pad1)">
+      <node ref="R20" pin="2"/>
+      <node ref="Q5" pin="1"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="2" name="Net-(Q5-Pad2)">
+      <node ref="U4" pin="5"/>
+      <node ref="Q5" pin="2"/>
+    </net>
+    <net code="3" name="Net-(C12-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="R22" pin="2"/>
+      <node ref="C12" pin="1"/>
+    </net>
+    <net code="4" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="R23" pin="1"/>
+    </net>
+    <net code="5" name="Net-(Q5-Pad3)">
+      <node ref="Q5" pin="3"/>
+      <node ref="R23" pin="2"/>
+      <node ref="U6" pin="5"/>
+    </net>
+    <net code="6" name="Net-(R27-Pad2)">
+      <node ref="U4" pin="8"/>
+      <node ref="R27" pin="2"/>
+      <node ref="R28" pin="1"/>
+    </net>
+    <net code="7" name="Net-(C8-Pad2)">
+      <node ref="R16" pin="2"/>
+      <node ref="R15" pin="2"/>
+      <node ref="R18" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="L1" pin="2"/>
+    </net>
+    <net code="8" name="Net-(BR1-Pad2)">
+      <node ref="C3" pin="2"/>
+      <node ref="L1" pin="1"/>
+      <node ref="BR1" pin="2"/>
+    </net>
+    <net code="9" name="Net-(BR1-Pad1)">
+      <node ref="C3" pin="1"/>
+      <node ref="L2" pin="1"/>
+      <node ref="BR1" pin="1"/>
+    </net>
+    <net code="10" name="Net-(R26-Pad2)">
+      <node ref="R26" pin="2"/>
+      <node ref="R27" pin="1"/>
+    </net>
+    <net code="11" name="Net-(R18-Pad2)">
+      <node ref="U4" pin="1"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="12" name="Net-(R21-Pad1)">
+      <node ref="U4" pin="3"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="13" name="+5V">
+      <node ref="P7" pin="1"/>
+      <node ref="R31" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="14" name="RELAY">
+      <node ref="P4" pin="2"/>
+    </net>
+    <net code="15" name="GND">
+      <node ref="C9" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U6" pin="6"/>
+      <node ref="C15" pin="2"/>
+      <node ref="P7" pin="3"/>
+      <node ref="R31" pin="1"/>
+    </net>
+    <net code="16" name="IO15">
+      <node ref="P7" pin="2"/>
+    </net>
+    <net code="17" name="Net-(D5-Pad2)">
+      <node ref="R26" pin="1"/>
+      <node ref="D5" pin="2"/>
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="18" name="Net-(D5-Pad1)">
+      <node ref="R30" pin="1"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="19" name="Net-(C13-Pad1)">
+      <node ref="U4" pin="2"/>
+      <node ref="R30" pin="2"/>
+      <node ref="R21" pin="2"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C13" pin="1"/>
+    </net>
+    <net code="20" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2"/>
+      <node ref="R29" pin="2"/>
+      <node ref="U6" pin="7"/>
+    </net>
+    <net code="21" name="Net-(C10-Pad2)">
+      <node ref="C10" pin="2"/>
+      <node ref="R29" pin="1"/>
+    </net>
+    <net code="22" name="Net-(U6-Pad4)">
+      <node ref="U6" pin="4"/>
+    </net>
+    <net code="23" name="Net-(R19-Pad2)">
+      <node ref="R20" pin="1"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="24" name="Net-(BR1-Pad3)">
+      <node ref="RT1" pin="1"/>
+      <node ref="BR1" pin="3"/>
+    </net>
+    <net code="25" name="Net-(C13-Pad2)">
+      <node ref="C13" pin="2"/>
+      <node ref="R16" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="R28" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="U4" pin="6"/>
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="26" name="HV-">
+      <node ref="RT1" pin="2"/>
+      <node ref="P4" pin="1"/>
+    </net>
+    <net code="27" name="HV+">
+      <node ref="BR1" pin="4"/>
+      <node ref="P3" pin="1"/>
+      <node ref="P3" pin="2"/>
+    </net>
+    <net code="29" name="Net-(C12-Pad2)">
+      <node ref="R22" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="U6" pin="3"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C12" pin="2"/>
+      <node ref="L2" pin="2"/>
+    </net>
+  </nets>
+</export>
