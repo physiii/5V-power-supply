@@ -50,8 +50,8 @@ P 5300 5400
 F 0 "BR1" V 5300 5350 50  0000 L CNN
 F 1 "DF08S" H 4700 5700 50  0001 L CNN
 F 2 "footprints:DF005S" H 5300 5400 50  0001 C CNN
-F 3 "http://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&itemSeq=206259955&uq=636087571188496593" H 5300 5400 50  0001 C CNN
-F 4 "DF08S" H 5300 5400 60  0001 C CNN "Part Number"
+F 3 "http://www.digikey.com/product-detail/en/fairchild-semiconductor/DF08S/DF08SCT-ND/2094412" H 5300 5400 50  0001 C CNN
+F 4 "DF08SCT" H 5300 5400 60  0001 C CNN "Part Number"
 	1    5300 5400
 	0    -1   -1   0   
 $EndComp

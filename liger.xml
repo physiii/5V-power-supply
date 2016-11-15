@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/physiii/circuits/5v-2a-psu/hardware/liger.sch</source>
-    <date>Fri 21 Oct 2016 11:23:22 AM CDT</date>
+    <source>/home/physiii/circuits/5v-power-supply/liger.sch</source>
+    <date>Fri 21 Oct 2016 05:43:28 PM CDT</date>
     <tool>Eeschema 201610091317+7290~55~ubuntu16.04.1-</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -584,7 +584,7 @@
       <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
     <library logical="liger-cache">
-      <uri>/home/physiii/circuits/5v-2a-psu/hardware/liger-cache.lib</uri>
+      <uri>/home/physiii/circuits/5v-power-supply/liger-cache.lib</uri>
     </library>
   </libraries>
   <nets>
